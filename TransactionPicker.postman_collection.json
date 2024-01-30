@@ -64,7 +64,26 @@
 			"response": []
 		},
 		{
-			"name": "get_ten_lowest_fees Copy",
+			"name": "get_next_highest_total",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/get_next_highest_total",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"get_next_highest_total"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_greediest_transaction",
 			"request": {
 				"method": "GET",
 				"header": [],
